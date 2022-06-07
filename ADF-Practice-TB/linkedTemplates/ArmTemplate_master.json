@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "ADF-Practice-TB"
 		},
+		"LinkServerBlobStorageTB_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'LinkServerBlobStorageTB'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +37,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"LinkServerBlobStorageTB_connectionString": {
+						"value": "[parameters('LinkServerBlobStorageTB_connectionString')]"
 					}
 				}
 			},

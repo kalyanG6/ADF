@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "ADF-Practice-TB"
 		},
+		"LinkServerBlobStorageTB_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},

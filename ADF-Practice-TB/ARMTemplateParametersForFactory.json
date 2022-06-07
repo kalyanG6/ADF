@@ -4,6 +4,9 @@
 	"parameters": {
 		"factoryName": {
 			"value": "ADF-Practice-TB"
+		},
+		"LinkServerBlobStorageTB_connectionString": {
+			"value": ""
 		}
 	}
 }
