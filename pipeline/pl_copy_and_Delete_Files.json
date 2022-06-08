@@ -82,7 +82,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "DS_Blob_Tb_Sink",
+						"referenceName": "LS_Blob_Tb_Input",
 						"type": "DatasetReference"
 					},
 					"logStorageSettings": {
